@@ -1,0 +1,4 @@
+    ssh-keygen -f base/ssh/id_rsa
+    cat ~/.ssh/id_rsa.pub >> base/ssh/authorized_keys
+    
+    docker build base
